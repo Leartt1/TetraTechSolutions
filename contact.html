@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TetraTechSolutions</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="Loader and Contact.css">
+    <link rel="icon" type="image/png" href="Images/black logo.png">
+</head>
+<body>
+  <header>
+    <img src="Images/Final Logo 2.svg" alt="" class="logo">
+    <nav>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </nav>
+    <a href="contact.html" class="button">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Contact Us
+      </a>
+</header>
+<div class="mheader">
+  <input type="checkbox" id="active">
+  <div class="mobile-logo">
+      <a href="Home.html">
+      <img src="Images/Final Logo 2.svg" alt="" class="mheader-logo"></a>
+  </div>
+    <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+    <div class="wrapper">
+       <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+       </ul>
+    </div>
+</div>
+    <div class="container1">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="/.netlify/functions/sendEmail" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="logo">
+          <img src="Images/Final Logo 2.svg" alt="">
+        </div>
+        <div class="location">
+          <h2><i class="icon-location"></i> Location</h2>
+          <p>Switzerland</p>
+          <p>Kosovo</p>
+          <p>Germany</p>
+          <p>Dubai</p>
+      </div>
+        <div class="contact-us">
+          <h2>Contact Us</h2>
+          <p>leart.tytyri1@gmail.com</p>
+          <p>+383 49 987 005</p>
+        </div>
+        <div class="services-f">
+          <h2>Our Services</h2>
+          <p>Website Development</p>
+          <p>UI/UX</p>
+          <p>Digital Marketing</p>
+          <p>Cyber Security</p>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+      </body>
+      </html>

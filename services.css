@@ -1,0 +1,88 @@
+ul{
+    color: #6bb2cd;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.web-development{
+    display: flex;
+    flex-direction: row;
+    color: #6bb2cd;
+    padding-top: 9px;
+    gap: 20px;
+    border-top: 1px solid #6bb2cd;
+    border-bottom: 1px solid #6bb2cd;
+    text-align: right;
+}
+.web-development1{
+    display: flex;
+    flex-direction: row;
+    color: #6bb2cd;
+    padding-top: 9px;
+    gap: 20px;
+    border-top: 1px solid #6bb2cd;
+    border-bottom: 1px solid #6bb2cd;
+}
+.w1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.web-img{
+    width: 50%;
+}
+.w1-img{
+    width: 100%;
+    border-radius: 50px;
+    border: 3px solid #6bb2cd;
+    box-shadow: 0 0 1px #6bb2cd,
+                0 0 13px #6bb2cd,
+                0 0 30px #6bb2cd;
+}
+.cta-button{
+    padding: 10px 20px;
+    background-color: #6bb2cd;
+    border: none;
+    transition: 0.4s;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.cta-button:hover{
+    color: #fff;
+    box-shadow: 0 0 15px #6bb2cd,
+                0 0 45px #6bb2cd,
+                0 0 90px #6bb2cd;
+    background: #6bb2cd;
+    border-radius: 35px;
+    padding-right: 20px;
+}
+.interested{
+    text-align: center;
+    transition: ease-in-out 0.8s;
+}
+.interested:hover{
+    background-image: url(Images/Final\ Logo.svg);
+    background-repeat: space;
+    background-position: center;
+    border-radius: 50px;
+    background-size: 17%;
+    box-shadow: 0 0 15px #6bb2cd,
+                0 0 45px #6bb2cd,
+                0 0 90px #6bb2cd;
+}
+@media (max-width: 768px) {
+    .web-development,
+    .web-development1{
+        flex-direction: column;
+        text-align: left;
+    }
+    .w1,
+    .web-img{
+        width: 100%;
+    }
+}

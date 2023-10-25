@@ -1,0 +1,49 @@
+.container1 {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #6bb2cd;
+    border-radius: 5px;
+    box-shadow: 0 0 11px #6bb2cd,
+    0 0 13px #6bb2cd,
+    0 0 23px #6bb2cd;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #6bb2cd;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #6bb2cd;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #6bb2cd;
+}
+
+button {
+    background-color: #6bb2cd;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+    box-shadow: 0 0 15px #6bb2cd,
+                0 0 45px #6bb2cd,
+                0 0 90px #6bb2cd;
+    background: #6bb2cd;
+}
